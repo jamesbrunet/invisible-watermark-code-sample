@@ -2,7 +2,7 @@ import cv2
 from imwatermark import WatermarkEncoder
 
 original_image = cv2.imread('james.jpg')
-watermark = 'test'
+watermark = 'testtest'
 
 encoder = WatermarkEncoder()
 encoder.set_watermark('bytes', watermark.encode('utf-8'))
