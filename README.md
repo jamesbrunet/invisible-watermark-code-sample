@@ -4,6 +4,11 @@ add-watermark.py demonstrates how to add a watermark to the file `james.jpg` and
 
 find-watermark.py demonstrates how to read the watermark in `james-watermarked.jpg` and output it to the terminal
 
+I had trouble getting this working in the following scenarios:
+
+* Watermarking illustrations, including those with blank or solid colour backgrounds
+* Watermarks longer than 8 characters
+
 ## Commands
 
 ```
